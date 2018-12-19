@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: rgb(209, 207, 218);
+  
 }
 
 code {
@@ -16,12 +17,14 @@ code {
 
 img{
   height: 300px; 
+  width: 200px;
   margin-left: 10px;
   margin-bottom: 10px;}
 
 .list{
   display: flex; 
-    align-content: stretch;
+    align-content: space-between;
+    text-align: center;
         flex-wrap: wrap;
 }
 
